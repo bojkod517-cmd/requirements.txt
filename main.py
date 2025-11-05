@@ -24,7 +24,7 @@ def getMessage():
 @app.route("/")
 def webhook():
     bot.remove_webhook()
-    bot.set_webhook(url='https://твоя-силка-на-render.onrender.com/' + TOKEN)
+    bot.set_webhook(url='https://review-bot-i3kh.onrender.com/' + TOKEN)
     return "Бот запущений!", 200
 
 if __name__ == "__main__":
